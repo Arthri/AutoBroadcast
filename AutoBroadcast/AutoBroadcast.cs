@@ -249,7 +249,7 @@ namespace AutoBroadcast
 		{
 			foreach (string Line in Messages)
 			{
-				if (Line.StartsWith(TShock.Config.CommandSpecifier) || Line.StartsWith(TShock.Config.CommandSilentSpecifier))
+				if (Line.StartsWith(TShock.Config.Settings.CommandSpecifier) || Line.StartsWith(TShock.Config.Settings.CommandSilentSpecifier))
 				{
 					Commands.HandleCommand(TSPlayer.Server, Line);
 				}
@@ -273,7 +273,7 @@ namespace AutoBroadcast
 		{
 			foreach (string Line in Messages)
 			{
-				if (Line.StartsWith(TShock.Config.CommandSpecifier) || Line.StartsWith(TShock.Config.CommandSilentSpecifier))
+				if (Line.StartsWith(TShock.Config.Settings.CommandSpecifier) || Line.StartsWith(TShock.Config.Settings.CommandSilentSpecifier))
 				{
 					Commands.HandleCommand(TSPlayer.Server, Line);
 				}
@@ -291,7 +291,7 @@ namespace AutoBroadcast
 		{
 			foreach (string Line in Messages)
 			{
-				if (Line.StartsWith(TShock.Config.CommandSpecifier) || Line.StartsWith(TShock.Config.CommandSilentSpecifier))
+				if (Line.StartsWith(TShock.Config.Settings.CommandSpecifier) || Line.StartsWith(TShock.Config.Settings.CommandSilentSpecifier))
 				{
 					Commands.HandleCommand(TSPlayer.Server, Line);
 				}
@@ -314,7 +314,7 @@ namespace AutoBroadcast
 		{
 			foreach (string Line in Messages)
 			{
-				if (Line.StartsWith(TShock.Config.CommandSpecifier) || Line.StartsWith(TShock.Config.CommandSilentSpecifier))
+				if (Line.StartsWith(TShock.Config.Settings.CommandSpecifier) || Line.StartsWith(TShock.Config.Settings.CommandSilentSpecifier))
 				{
 					Commands.HandleCommand(TSPlayer.Server, Line);
 				}
